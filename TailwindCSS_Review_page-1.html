@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Layout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="flex-1 flex items-center justify-start">
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-500 px-3 py-2 rounded-md text-sm font-medium">Link</a>
+            <a href="#" class="text-gray-500 px-3 py-2 rounded-md text-sm font-medium">Link</a>
+            <a href="#" class="text-gray-500 px-3 py-2 rounded-md text-sm font-medium">Link</a>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <input type="text" class="border border-gray-300 rounded-md p-1" placeholder="Search...">
+          <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded-md">Log in</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-200 py-20">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold text-gray-800">
+        Quisquam necessita <br>
+        <span class="text-purple-600">vel labor</span><span class="text-gray-800">um dolor</span><span class="text-purple-600">ibus delectus</span>
+      </h1>
+      <p class="mt-4 text-gray-600">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
+      <div class="mt-8">
+        <a href="#" class="bg-purple-600 text-white px-6 py-3 rounded-md">Get started</a>
+        <a href="#" class="text-gray-800 px-6 py-3">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <!-- Testimonial Section -->
+<!-- Testimonial Section -->
+<section class="py-16 bg-gray-100">
+  <div class="text-center mb-12">
+    <h2 class="text-3xl font-semibold text-gray-800">What our customers are saying about us</h2>
+  </div>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+
+    <!-- Card 1 -->
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 15v6m0-6H6m6 0h6m-6 0a9 9 0 100-18 9 9 0 100 18z" />
+        </svg>
+      </div>
+      <p class="text-gray-600 mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+      <div class="pt-4 border-t border-gray-200">
+        <h3 class="text-lg font-bold text-gray-800">Distinctio Animi</h3>
+        <p class="text-sm text-gray-500">Aliquam Illum</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 15v6m0-6H6m6 0h6m-6 0a9 9 0 100-18 9 9 0 100 18z" />
+        </svg>
+      </div>
+      <p class="text-gray-600 mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+      <div class="pt-4 border-t border-gray-200">
+        <h3 class="text-lg font-bold text-gray-800">Distinctio Animi</h3>
+        <p class="text-sm text-gray-500">Aliquam Illum</p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 15v6m0-6H6m6 0h6m-6 0a9 9 0 100-18 9 9 0 100 18z" />
+        </svg>
+      </div>
+      <p class="text-gray-600 mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+      <div class="pt-4 border-t border-gray-200">
+        <h3 class="text-lg font-bold text-gray-800">Distinctio Animi</h3>
+        <p class="text-sm text-gray-500">Aliquam Illum</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6M12 15v6m0-6H6m6 0h6m-6 0a9 9 0 100-18 9 9 0 100 18z" />
+        </svg>
+      </div>
+      <p class="text-gray-600 mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+      <div class="pt-4 border-t border-gray-200">
+        <h3 class="
+
